@@ -1,0 +1,35 @@
+header{
+  position: fixed;
+  top: 0;
+  width: 1000px;
+  height: 40px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border: 1px solid blue;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background-color: rgb(247, 246, 244);
+}
+.logoTitulo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 2vw;
+}
+.nav__menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2vw;
+}
+.nav__menu-item{
+  width: 90px;
+  text-align: center;
+}
+.nav__logo{
+  width: 30px;
+  padding-right: 10px;
+}
+

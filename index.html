@@ -1,35 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Burdet Juan Manuel</title>
-</head>
-<body>
-  <header>
-    <h1></h1>
-    <nav></nav>
-  </header>
-  <main>
-    <section class="acercaDeMi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Burdet Juan Manuel</title>
+    <link rel="stylesheet" href="./asserts/css/reset.css" />
+    <link rel="stylesheet" href="./asserts/css/main.css" />
+    <link rel="stylesheet" href="./asserts/css/header.css" />
+    <link rel="stylesheet" href="./asserts/css/formacion.css" />
+    <link rel="stylesheet" href="./asserts/css/skills.css" />
+    <link rel="stylesheet" href="./asserts/css/hobbies.css" />
+    <link rel="stylesheet" href="./asserts/css/experiencia.css" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./asserts/css/acercademi.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logoTitulo">
+        <img
+          class="nav__logo"
+          src="./asserts/img/logo.jpg"
+          alt="logo tecnopulsar"
+        />
+        <h1 class="titulo__ppal">tecnopulsar</h1>
+      </div>
+      <ul class="nav__menu">
+        <li class="nav__menu-item">Sobre mí</li>
+        <li class="nav__menu-item">Skills</li>
+        <li class="nav__menu-item">Hobbies</li>
+        <li class="nav__menu-item">Formación</li>
+        <li class="nav__menu-item">Proyectos</li>
+        <li class="nav__menu-item">Contacto</li>
+      </ul>
+    </header>
+    <main>
+      <section class="acercaDeMi">
+        <div class="acercaDeMi__col1">
+          <h2 class="acercaDeMi__col1-titulo">
+            Hola, mi nombre es Juan Manuel Burdet, soy Ingeniero Electrónico y
+            Desarrollador Web
+          </h2>
+          <p class="acercaDeMi__col1-descripcion">
+            Actualmente me dedico full-time a mi formación, participo de varios
+            proyectos IT, los más destacados, proyecto Oracle ONE en Alura Latam
+            y proyecto CODO A CODO 4.0 del Gobierno de la ciudad de Buenos Aires
+          </p>
+          <ul class="acercaDeMi__col1-redes">
+            <li class="acercaDeMi__col1-redes-item">
+              <a href="https://github.com/tecnopulsar/"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li class="acercaDeMi__col1-redes-item">
+              <a href="https://www.linkedin.com/in/juan-manuel-burdet-9189472b"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="acercaDeMi__col1-redes-item">
+              <a href="https://www.instagram.com/manupro76/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="acercaDeMi__col1-redes-item">
+              <a href="https://github.com/tecnopulsar/"
+                ><i class="fa-regular fa-file-pdf"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="acercaDeMi__col2">
+          <img
+            class="acercaDeMi__col2-img"
+            src="./asserts/img/foto_perfil-frente.jpg"
+            alt="Imagen personal"
+          />
+        </div>
+      </section>
+      <section class="skills">
+        <h2 class="skills__titulo">Skills</h2>
+        <ul class="skills__menu">
+          <li class="skills__menu-item">
+            <div>
+              <img
+                src="./asserts/img/skill_html5.jpg"
+                alt="html5"
+                class="skills__menu-item-img"
+              />
+            </div>
+          </li>
+          <li class="skills__menu-item">
+            <div>
+              <img
+                src="./asserts/img/skill_css.jpg"
+                alt="css"
+                class="skills__menu-item-img"
+              />
+            </div>
+          </li>
+          <li class="skills__menu-item">
+            <div>
+              <img
+                src="./asserts/img/skill_js.jpg"
+                alt="javascript"
+                class="skills__menu-item-img"
+              />
+            </div>
+          </li>
+          <li class="skills__menu-item">
+            <div>
+              <img
+                src="./asserts/img/skill_nodejs.jpg"
+                alt="node JS"
+                class="skills__menu-item-img"
+              />
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="hobbies">
+        <h2 class="hobbies__titulo">Hobbies</h2>
+        <ul class="hobbies__menu">
+          <li class="hobbies__menu-item">
+            <div>
+              <object
+                data="./asserts/svg/tennis-racket.svg"
+                width="70"
+                height="70"
+              ></object>
+            </div>
+            tenis
+          </li>
+          <li class="hobbies__menu-item">
+            <div>
+              <i class="fa-solid fa-chess"></i>
+              <object
+                data="./asserts/svg/chess-game-knight.svg"
+                width="70"
+                height="70"
+              ></object>
+            </div>
+            ajedrez
+          </li>
+          <li class="hobbies__menu-item">
+            <div>
+              <object
+                data="./asserts/svg/family-group.svg"
+                width="70"
+                height="70"
+              ></object>
+            </div>
+            familia
+          </li>
+          <li class="hobbies__menu-item">
+            <div>
+              <object
+                data="./asserts/svg/processor.svg"
+                width="70"
+                height="70"
+              ></object>
+            </div>
+            electrónica
+          </li>
+          <li class="hobbies__menu-item">
+            <div>
+              <object
+                data="./asserts/svg/ball-football.svg"
+                width="70"
+                height="70"
+              ></object>
+            </div>
+            futbol
+          </li>
+        </ul>
+      </section>
+      <section class="formacion">
+        <h2 class="formacion__titulo">Formación academémica</h2>
+        <ul class="formacion__menu">
+          <li class="formacion__menu-item">
+            <div>
+              <img
+                src="./asserts/img/logo_fiuba_azul.jpg"
+                alt="facultad de ingenieria"
+                class="formacion__menu-item-img"
+              />
+            </div>
+            <h3 class="formacion__menu-item-titulo">UBA</h3>
+            <p class="formacion__menu-item-descripcion">
+              2012 - Ingenierío Electrónico
+            </p>
+          </li>
+          <li class="formacion__menu-item">
+            <div>
+              <img
+                src="./asserts/img/codoacodo.jpg"
+                alt="codoa codo"
+                class="formacion__menu-item-img"
+              />
+            </div>
+            <h3 class="formacion__menu-item-titulo">Gob. Cdad. BsAs.</h3>
+            <p class="formacion__menu-item-descripcion">
+              2020 - Curso FullStack Python
+            </p>
+          </li>
+          <li class="formacion__menu-item">
+            <div>
+              <img
+                src="./asserts/img/logo_alura.jpg"
+                alt="oracle alura one latam"
+                class="formacion__menu-item-img"
+              />
+            </div>
+            <h3 class="formacion__menu-item-titulo">alura LATAM</h3>
+            <p class="formacion__menu-item-descripcion">
+              En Curso - Programa ONE Java
+            </p>
+          </li>
+          <li class="formacion__menu-item">
+            <div>
+              <img
+                src="./asserts/img/codoacodo.jpg"
+                alt="codoa codo"
+                class="formacion__menu-item-img"
+              />
+            </div>
+            <h3 class="formacion__menu-item-titulo">Gob. Cdad. BsAs.</h3>
+            <p class="formacion__menu-item-descripcion">
+              En Curso - FullStack PHP
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="experiencia">
+        <h2 class="experiencia__titulo">Experiencia en programación</h2>
+        <ul class="experiencia__menu">
+          <li class="experiencia__menu-item1">
+            <img
+              src="./Captura de pantalla Encriptador.jpg"
+              alt="Encriptador de texto"
+              class="experiencia__menu-col-img"
+            />
+            <div>
+              <h3 class="experiencia__menu-item-titulo">
+                Encriptador de texto
+              </h3>
+              <p class="experiencia__menu-item-descripcion">
+                1er Callenge Oracle Alura ONE
+              </p>
+              <div>
+                <a
+                  class="experiencia__boton-Git"
+                  href="https://tecnopulsar.github.io/challenge-oracle-decoder-esp-main/"
+                  >Repositorio</a
+                >
+                <a
+                  class="experiencia__boton-Demo"
+                  href="https://github.com/tecnopulsar/challengeonelogicalatam"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </li>
+          <li class="experiencia__menu-item2">
+            <img
+              src="./CapturaGanaste.jpg"
+              alt="Juego del ahorcado"
+              class="experiencia__menu-col-img"
+            />
+            <div>
+              <h3 class="experiencia__menu-item-titulo">Juego del ahorcado</h3>
+              <p class="experiencia__menu-item-descripcion">
+                2ndo Callenge Oracle Alura ONE
+              </p>
+              <div>
+                <a
+                  class="experiencia__boton-Git"
+                  href="https://github.com/tecnopulsar/challenge-oracle-hangman-esp-main"
+                  >Repositorio</a
+                >
+                <a
+                  class="experiencia__boton-Demo"
+                  href="https://tecnopulsar.github.io/challenge-oracle-hangman-esp-main/"
+                  >Demo</a
+                >
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="contacto">
+        <div class="contacto__colIzq">
+          <img src="" alt="Imagen Contacto">
+        </div>
+        <div class="contacto__colDer">
+          
+        <h2 class="contacto__titulo">Contacto</h2>
+        <p class="contacto__descripcion">¿Quieres contactacme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+          <form action="">
 
-    </section>
-    <section class="hobbys">
-
-    </section>
-    <section class="formacion">
-
-    </section>
-    <section class="experiencia">
-
-    </section>
-    <section class="contacto">
-
-    </section>
-    <footer>
-      
-    </footer>
-  </main>
-</body>
+          </form>
+        </div>
+      </section>
+      <footer></footer>
+    </main>
+  </body>
 </html>

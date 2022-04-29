@@ -1,0 +1,21 @@
+/* Mobile first */
+:root{
+  /* Fuentes */
+--monserrat: 'Montserrat', sans-serif;
+--open-sans: 'Open Sans', sans-serif;  
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+html,
+body {
+  width: 940px;
+  margin-left: 10px;
+}
+
+body {
+  background-color: rgb(55, 182, 233);
+}
