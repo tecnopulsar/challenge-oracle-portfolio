@@ -1,20 +1,19 @@
 .experiencia{
   width: 1000px;
-  height:620px;
+  height:650px;
   display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  background: #EAF2FD;
-  border: 1px solid blue;
+  background: #f5f5f5;
 }
 
 .experiencia__titulo{
-  margin-top: 10px;
+  margin-top: 30px;
   height: 50px;
   font-size: 30px;
   font-family:'Raleway', sans-serif;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .experiencia__menu{
@@ -24,7 +23,6 @@
   flex-direction: column;
   justify-content:left;
   align-items: center;
-  border: 1px solid blue;
 }
 .experiencia__menu-item1{
   width: 800px;
@@ -33,7 +31,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items:center;
-  border: 1px solid blue;
 }
 .experiencia__menu-item1 img{
   width: 60%;
@@ -52,7 +49,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items:center;
-  border: 1px solid blue;
 }
 .experiencia__menu-item2 img{
   width: 50%;
@@ -87,7 +83,7 @@
   height: 30px;
   padding: 10px;
   background-color: white;
-  border: 1px solid blue;
+  border: 1px solid #2a7ae4;
   border-radius: 5px;
   font-family:'Raleway', sans-serif;
   color: black;
@@ -97,13 +93,13 @@
   margin-bottom: 10px;
 }
 .experiencia__boton-Git:hover{
-  background-color: rgb(0, 174, 255);
+  background-color: #2a7ae4;
   color:white;
 }
 
 .experiencia__boton-Git:active {
 
-  background-color: rgb(0, 174, 255);
+  background-color: #2a7ae4;
   box-shadow: 0 5px #666;
   transform: translateY(1px);
 }
@@ -113,7 +109,7 @@
   height: 30px;
   padding: 10px;
   background-color: rgb(144, 155, 250);
-  border: 1px solid blue;
+  border: 1px solid #2a7ae4;
   border-radius: 5px;
   font-family:'Raleway', sans-serif;
   color: black;
@@ -131,4 +127,27 @@
   background-color: rgb(0, 174, 255);
   box-shadow: 0 5px #666;
   transform: translateY(1px);
+}
+
+/* Pantallas medianas */
+@media (max-width: 991.98px) {
+  .experiencia{
+    width: 100%;
+  }
+  .experiencia__titulo{
+    margin-top: 10px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .experiencia__menu-item-titulo{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+  }
+  .experiencia__menu-item-descripcion{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+  }
 }

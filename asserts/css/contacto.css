@@ -1,0 +1,290 @@
+.contacto{
+  width: 1000px;
+  height:500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #eaf2fd;
+}
+
+.contacto__colIzq{
+  width: 400px;
+  height:480px;
+  display: flex;
+  justify-content: flex-end;
+}
+.contacto__colIzq img{
+  width: 380px;
+  margin-right: 20px;
+}
+.contacto__colDer{
+  width: 400px;
+  height:480px;
+}
+.contacto__titulo{
+  margin-top: 2px;
+  height: 25px;
+  font-size: 30px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 600;
+}
+.contacto__descripcion{
+  margin-top: 10px;
+  height: 50px;
+  font-size: 12px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+}
+/* Formulario */
+.label__nombre{
+  position:relative;
+  top: 30px;
+  left: 10px;
+  height: 40px;
+  font-size: 8px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+}
+.input__nombre{
+  width: 380px;
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 45px;
+  padding-top: 15px;
+  font-size: 16px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+  border: none;
+}
+.label__email{
+  position:relative;
+  top: 30px;
+  left: 10px;
+  height: 40px;
+  font-size: 8px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+}
+.input__email{
+  width: 380px;
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 45px;
+  padding-top: 15px;
+  font-size: 16px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+  border: none;
+}
+.label__asunto{
+  position:relative;
+  top: 30px;
+  left: 10px;
+  height: 40px;
+  font-size: 8px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+}
+.input__asunto{
+  width: 380px;
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 45px;
+  padding-top: 15px;
+  font-size: 16px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+  border: none;
+}
+.label__mensaje{
+  position:relative;
+  top: 30px;
+  left: 10px;
+  height: 40px;
+  font-size: 8px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+}
+.input__mensaje{
+  width: 380px;
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 100px;
+  padding-top: 15px;
+  font-size: 16px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+  border: none;
+}
+
+.contacto__boton-Submit{
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 5px;
+  background-color: #2a7ae4;
+  border:none;
+  font-family:'Raleway', sans-serif;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+.contacto__boton-Submit:hover{
+  background-color: rgb(0, 174, 255);
+  color:white;
+}
+
+.contacto__boton-Submit:active {
+
+  background-color: rgb(0, 174, 255);
+  box-shadow: 0 5px #666;
+  transform: translateY(1px);
+}
+
+/* Pantallas medianas */
+@media (max-width: 991.98px) {
+  .contacto{
+    width: 100%;
+    height:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #eaf2fd;
+  }
+  
+  .contacto__colIzq{
+    display: none;
+  }
+  .contacto__colDer{
+    width: 400px;
+    height:480px;
+  }
+  .contacto__titulo{
+    margin-top: 2px;
+    height: 25px;
+    font-size: 30px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 600;
+  }
+  .contacto__descripcion{
+    margin-top: 10px;
+    height: 50px;
+    font-size: 12px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+  }
+  /* Formulario */
+  .label__nombre{
+    position:relative;
+    top: 30px;
+    left: 10px;
+    height: 40px;
+    font-size: 8px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+  }
+  .input__nombre{
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 45px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    border: none;
+  }
+  .label__email{
+    position:relative;
+    top: 30px;
+    left: 10px;
+    height: 40px;
+    font-size: 8px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+  }
+  .input__email{
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 45px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    border: none;
+  }
+  .label__asunto{
+    position:relative;
+    top: 30px;
+    left: 10px;
+    height: 40px;
+    font-size: 8px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+  }
+  .input__asunto{
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 45px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    border: none;
+  }
+  .label__mensaje{
+    position:relative;
+    top: 30px;
+    left: 10px;
+    height: 40px;
+    font-size: 8px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+  }
+  .input__mensaje{
+    width: 380px;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 100px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 400;
+    border: none;
+  }
+  
+  .contacto__boton-Submit{
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: #2a7ae4;
+    border:none;
+    font-family:'Raleway', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+  }
+  .contacto__boton-Submit:hover{
+    background-color: rgb(0, 174, 255);
+    color:white;
+  }
+  
+  .contacto__boton-Submit:active {
+  
+    background-color: rgb(0, 174, 255);
+    box-shadow: 0 5px #666;
+    transform: translateY(1px);
+  }
+  }
+
+
+

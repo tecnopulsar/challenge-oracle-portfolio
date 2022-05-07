@@ -1,4 +1,6 @@
 /* Mobile first */
+@import url('https://fonts.googleapis.com/css?family=Lucida');
+
 :root{
   /* Fuentes */
 --monserrat: 'Montserrat', sans-serif;
@@ -13,9 +15,46 @@
 html,
 body {
   width: 940px;
-  margin-left: 10px;
+  margin: 1px auto;
 }
 
 body {
-  background-color: rgb(55, 182, 233);
+  background: #F5F5F5;
 }
+
+//*********************************************************
+//*********************************************************
+
+/* 
+//Pantallas muy pequeñas  (móviles en portrait de menos de 576px)
+//No hace falta media-query porque será nuestro diseño por defecto
+
+//Pantallas pequeñas (móviles en landscape de más de 576px)
+@media (min-width: 576px) { ... }
+
+//Pantallas medianas (tablets de más de 768px)
+@media (min-width: 768px) { ... }
+
+//Pantallas grandes (desktops de más de 992px)
+@media (min-width: 992px) { ... }
+
+//Pantallas muy grandes (desktops de más de 1200px)
+@media (min-width: 1200px) { ... } */
+
+//*********************************************************
+//*********************************************************
+
+/* //Pantallas muy grandes  (desktops de más de 1200px de ancho)
+//No hace falta media-query porque será nuestro diseño por defecto
+
+//Pantallas grandes (desktops de menos de 1200px)
+@media (max-width: 1199.98px) { ... }
+
+//Pantallas medianas (tablets de menos de 992px)
+@media (max-width: 991.98px) { ... }
+
+//Pantallas pequeñas (móviles en landscape de menos de 768px)
+@media (max-width: 767.98px) { ... }
+
+//Pantallas muy pequeñas (móviles en portrait de menos de 576px)
+@media (max-width: 575.98px) { ... } */

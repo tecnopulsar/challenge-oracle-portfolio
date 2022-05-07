@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./asserts/css/skills.css" />
     <link rel="stylesheet" href="./asserts/css/hobbies.css" />
     <link rel="stylesheet" href="./asserts/css/experiencia.css" />
+    <link rel="stylesheet" href="./asserts/css/contacto.css" />
+    <link rel="stylesheet" href="./asserts/css/footer.css" />
     <link href="fontawesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="./asserts/css/acercademi.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,16 +34,16 @@
         <h1 class="titulo__ppal">tecnopulsar</h1>
       </div>
       <ul class="nav__menu">
-        <li class="nav__menu-item">Sobre mí</li>
-        <li class="nav__menu-item">Skills</li>
-        <li class="nav__menu-item">Hobbies</li>
-        <li class="nav__menu-item">Formación</li>
-        <li class="nav__menu-item">Proyectos</li>
-        <li class="nav__menu-item">Contacto</li>
+        <li class="nav__menu-item"><a href="#acercaDeMi">Sobre mí</a></li>
+        <li class="nav__menu-item"><a href="#skills">Skills</a></li>
+        <li class="nav__menu-item"><a href="#hobbies">Hobbies</a></li>
+        <li class="nav__menu-item"><a href="#formacion">Formación</a></li>
+        <li class="nav__menu-item"><a href="#experiencia">Proyectos</a></li>
+        <li class="nav__menu-item"><a href="#contacto">Contacto</a></li>
       </ul>
     </header>
     <main>
-      <section class="acercaDeMi">
+      <section class="acercaDeMi" id="acercaDeMi">
         <div class="acercaDeMi__col1">
           <h2 class="acercaDeMi__col1-titulo">
             Hola, mi nombre es Juan Manuel Burdet, soy Ingeniero Electrónico y
@@ -83,7 +85,7 @@
           />
         </div>
       </section>
-      <section class="skills">
+      <section class="skills" id="skills">
         <h2 class="skills__titulo">Skills</h2>
         <ul class="skills__menu">
           <li class="skills__menu-item">
@@ -124,7 +126,7 @@
           </li>
         </ul>
       </section>
-      <section class="hobbies">
+      <section class="hobbies" id="hobbies">
         <h2 class="hobbies__titulo">Hobbies</h2>
         <ul class="hobbies__menu">
           <li class="hobbies__menu-item">
@@ -180,7 +182,7 @@
           </li>
         </ul>
       </section>
-      <section class="formacion">
+      <section class="formacion" id="formacion">
         <h2 class="formacion__titulo">Formación academémica</h2>
         <ul class="formacion__menu">
           <li class="formacion__menu-item">
@@ -237,7 +239,7 @@
           </li>
         </ul>
       </section>
-      <section class="experiencia">
+      <section class="experiencia" id="experiencia">
         <h2 class="experiencia__titulo">Experiencia en programación</h2>
         <ul class="experiencia__menu">
           <li class="experiencia__menu-item1">
@@ -256,12 +258,12 @@
               <div>
                 <a
                   class="experiencia__boton-Git"
-                  href="https://tecnopulsar.github.io/challenge-oracle-decoder-esp-main/"
+                  href="https://github.com/tecnopulsar/challengeonelogicalatam"
                   >Repositorio</a
                 >
                 <a
                   class="experiencia__boton-Demo"
-                  href="https://github.com/tecnopulsar/challengeonelogicalatam"
+                  href="https://tecnopulsar.github.io/challenge-oracle-decoder-esp-main/"
                   >Demo</a
                 >
               </div>
@@ -294,20 +296,34 @@
           </li>
         </ul>
       </section>
-      <section class="contacto">
+      <section class="contacto" id="contacto">
         <div class="contacto__colIzq">
-          <img src="" alt="Imagen Contacto">
+          <img src="./asserts/img/telefono.jpg" alt="Imagen Contacto" />
         </div>
         <div class="contacto__colDer">
-          
-        <h2 class="contacto__titulo">Contacto</h2>
-        <p class="contacto__descripcion">¿Quieres contactacme?<br>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-          <form action="">
+          <h2 class="contacto__titulo">Contacto</h2>
+          <p class="contacto__descripcion">
+            ¿Quieres contactacme?<br />Complete el siguiente formulario y me
+            pondré en contacto con usted lo antes posible.
+          </p>
+          <form action="/action_page.php" target="_blank" method="get">
+            <label for="nombre" class="label__nombre">Nombre</label>
+            <input type="text" class="input__nombre" name="nombre" placeholder="Juan Manuel Burdet"/>
+            <label for="email"class="label__email">Email</label>
+            <input type="email" class="input__email" name="email" placeholder="tecnopulsar@gmail.com"/>
+            <label for="asunto" class="label__asunto">Asunto</label>
+            <input type="text" class="input__asunto" name="asunto" />
+            <label for="mensaje" class="label__mensaje">Mensaje</label>
+            <input type="text" class="input__mensaje" name="mensaje" />
 
+            <input type="submit" class="contacto__boton-Submit" value="Enviar mensaje" />
           </form>
         </div>
       </section>
-      <footer></footer>
+      <footer>
+        <h3><em>Desarrollado por </em>Burdet, Juan Manuel </h3>
+        <h4>Argentina 2022</h4>
+      </footer>
     </main>
   </body>
 </html>

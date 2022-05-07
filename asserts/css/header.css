@@ -1,13 +1,13 @@
 header{
   position: fixed;
   top: 0;
-  width: 1000px;
+  width: 90%;
+  max-width: 1000px;
   height: 40px;
   display: flex;
   justify-content:space-between;
   align-items: center;
-  border: 1px solid blue;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lucida','Raleway', sans-serif;
   font-weight: 400;
   background-color: rgb(247, 246, 244);
 }
@@ -20,16 +20,43 @@ header{
 .nav__menu{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
-  padding-right: 2vw;
+  padding-right: 10%;
 }
 .nav__menu-item{
   width: 90px;
   text-align: center;
+}
+.nav__menu-item a{
+  text-decoration: none;
 }
 .nav__logo{
   width: 30px;
   padding-right: 10px;
 }
 
+/* Pantallas medianas */
+@media (max-width: 991.98px) {
+  header{
+    width: 90%;
+    border: 1px solid blue;
+  }
+
+  .nav__menu-item a{
+    text-decoration: none;
+    visibility: hidden;
+  }
+  .nav__menu-item:last-child a{
+    text-decoration: none;
+    visibility: visible;
+    font-weight: 700;
+  }
+}
+
+/* Pantallas pequeñas (móviles en landscape de menos de 768px) */
+@media (max-width: 767.98px) {
+  .nav__menu-item:last-child a{
+    font-weight: regular;
+  }
+}

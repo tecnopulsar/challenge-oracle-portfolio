@@ -1,0 +1,21 @@
+footer{
+  width: 1000px;
+  height:100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #85a2cc;
+}
+footer h3{
+  margin-top: 30px;
+  font-size: 15px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+}
+footer h4{
+  margin-top: 10px;
+  font-size: 12px;
+  font-family:'Raleway', sans-serif;
+  font-weight: 400;
+}
